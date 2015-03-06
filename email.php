@@ -1,0 +1,225 @@
+<?php
+
+$nome = $_POST["nome"];
+$email = $_POST["email"];
+$to = "renagribeiro@gmail.com";
+$subject = "Contato pelo site";
+$html = '
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>My email message created with BeeFree</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="format-detection" content="telephone=no">
+        <style type="text/css">
+            /* RESET */
+            #outlook a {
+                padding: 0;
+            }
+            body {
+                width: 100% !important;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+                margin: 0;
+                padding: 0;
+                mso-line-height-rule: exactly;
+            }
+            table td {
+                border-collapse: collapse;
+            }
+            .ExternalClass {
+                width: 100%;
+            }
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+                line-height: 100%;
+            }
+            table td {
+                border-collapse: collapse;
+            }/* IMG */
+            img {
+                outline: none;
+                text-decoration: none;
+                -ms-interpolation-mode: bicubic;
+            }
+            a img {
+                border: none;
+            }/* Becoming responsive */
+            @media only screen and (max-device-width: 480px) {
+                table[id="container_div"] {
+                    max-width: 480px !important;
+                }
+                table[id="container_table"], table[class="image_container"], table[class="image-group-contenitor"] {
+                    width: 100% !important;
+                    min-width: 320px !important;
+                }
+                table[class="image-group-contenitor"] td, table[class="mixed"] td, td[class="mix_image"], td[class="mix_text"], td[class="table-separator"], td[class="section_block"] {
+                    display: block !important;
+                    width: 100% !important;
+                }
+                table[class="image_container"] img, td[class="mix_image"] img, table[class="image-group-contenitor"] img {
+                    width: 100% !important;
+                }
+                table[class="image_container"] img[class="natural-width"], td[class="mix_image"] img[class="natural-width"], table[class="image-group-contenitor"] img[class="natural-width"] {
+                    width: auto !important;
+                }
+                a[class="button-link justify"] {
+                    display: block !important;
+                    width: auto !important;
+                }
+                td[class="table-separator"] br {
+                    display: none;
+                }
+                td[class="cloned_td"]  table[class="image_container"] {
+                    width: 100% !important;
+                    min-width: 0 !important;
+                }
+            }
+            table[class="social_wrapp"] {
+                width: auto;
+            }
+        </style>
+    </head>
+    <body bgcolor="#d5e4ed">
+        <table id="container_div" style="text-align:center; background-color:#d5e4ed; border-collapse: collapse" align="center" bgcolor="#d5e4ed" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td align="center">
+                <br>
+                <table id="container_wrapper" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td>
+                            <table id="container_table" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="border-collapse: collapse; min-width: 600px;" width="600">
+                                <tbody>
+                                    <tr>
+                                        <td valign="top" bgcolor="#ffffff">
+                                        <table class="image_container" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse: collapse; background-color: rgb(255, 255, 255);" bgcolor="#ffffff">
+                                            <tbody>
+                                                <tr valign="top">
+                                                    <td valign="top" align="center"><img src="renangribeiro.com/images/BF_rocket_fly_2.jpg" alt="" data-embeded="auto" style="vertical-align: top; width: 600px;" width="600"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                        <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="section_block" width="50%" valign="top" bgcolor="#ffffff">
+                                                    <table class="image_container" cellpadding="10" cellspacing="0" border="0" width="100%" style="border-collapse: collapse; background-color: rgb(255, 255, 255);" bgcolor="#ffffff">
+                                                        <tbody>
+                                                            <tr valign="top">
+                                                                <td valign="top" align="center"><img data-embeded="auto" src="renangribeiro.com/images/1423508331152-VSX6ORGH.jpg" alt="Text shown when image is not displayed" style="height: auto; vertical-align: top; width: 278px;" width="278"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table></td><td class="section_block" width="50%" valign="top" bgcolor="#ffffff">
+                                                    <table cellpadding="20" cellspacing="0" border="0" width="100%" style="border-collapse: collapse; background-color: rgb(255, 255, 255);" bgcolor="#ffffff">
+                                                        <tbody>
+                                                            <tr valign="top">
+                                                                <td valign="top" style="line-height: 150%; color: rgb(0, 0, 0);">
+                                                                <div style="color: rgb(102, 102, 102);">
+                                                                    <span style="font-size: 16px; line-height: 150%;"><font face="lucida sans unicode, lucida grande, sans-serif"><span style="font-family: arial, helvetica, sans-serif; line-height: 1%;">Olá,agradeço por ter enviado uma mensagem pelo site,em breve responderei.Sinta-se à vontade para me contatar pelo telefone <strong>(83)8829-3367</strong>,ou pelo email <strong>renagribeiro@gmail.com</strong>.&nbsp;&nbsp;</span></font></span>
+                                                                </div></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table></td>
+                                                </tr>
+                                            </tbody>
+                                        </table></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" bgcolor="#ffffff">
+                                        <table cellpadding="20" cellspacing="0" border="0" width="100%" style="border-collapse: collapse; background-color: rgb(255, 255, 255);" bgcolor="#ffffff">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top" align="center">
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center"><!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.renangribeiro.com" style="height:62px;v-text-anchor:middle;width:503px; display: block;" arcsize="17.741935483870968%" stroke="f" fillcolor="rgb(47, 170, 222)"><w:anchorlock></w:anchorlock><center><![endif]--><a class="button-link " href="http://www.renangribeiro.com" target="_blank" style="background-color:rgb(47, 170, 222);border-radius:11px;color:#ffffff;display:inline-block;text-align:center;text-decoration:none;width:90%;-webkit-text-size-adjust:none; box-sizing: border-box"><span class="button_content" style="padding: 18px; display: block;"><span style="display: block; font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); text-decoration: none;"><span style="font-size: 26px;">ir para o site</span></span></span></a><!--[if mso]></center></v:roundrect><![endif]--></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table cellpadding="22" cellspacing="0" border="0" width="100%" style="border-collapse: collapse; background-color: rgb(232, 232, 232);" bgcolor="#e8e8e8">
+                                            <tbody>
+                                                <tr valign="top">
+                                                    <td valign="top" align="center">
+                                                    <table class="social_wrapp" cellpadding="0" cellspacing="0" border="0" width="144" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                <table class="SocialItemUnit" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0; display: block;" width="46">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="left" valign="top" style="text-decoration: none; padding: 4px 0px;" width="46"><span class="social-follow">
+                                                                                 <a href="https://www.facebook.com/renangribeirosp"
+                                                                                 target="_blank" style="text-decoration: none;">
+          <img src="renangribeiro.com/images/36px_facebook.png" alt="Facebook" style="display: block; border: 0; outline: none; padding-bottom: 0; vertical-align: top;"> </a> </span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table class="SocialItemUnit" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0; display: block;" width="46">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="left" valign="top" style="text-decoration: none; padding: 4px 0px;" width="46"><span class="social-follow"> <a href="http://plus.google.com/googleplus-follow-url" target="_blank" style="text-decoration: none;"> <img src="renangribeiro.com/images/36px_google.png" alt="Google+" style="display: block; border: 0; outline: none; padding-bottom: 0; vertical-align: top;"> </a> </span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table class="SocialItemUnit" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0; display: block;" width="46">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="left" valign="top" style="text-decoration: none; padding: 4px 0px;" width="46"><span class="social-follow"> <a href="http://www.renangribeiro.com" target="_blank" style="text-decoration: none;"> <img src="renangribeiro.com/images/36px_website.png" alt="Website" style="display: block; border: 0; outline: none; padding-bottom: 0; vertical-align: top;"> </a> </span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table cellpadding="20" cellspacing="0" border="0" width="100%" style="border-collapse: collapse; background-color: rgb(229, 229, 229);" bgcolor="#e5e5e5">
+                                            <tbody>
+                                                <tr valign="top">
+                                                    <td valign="top" style="line-height: 130%; color: rgb(0, 0, 0);"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table></td>
+                                    </tr>
+                                </tbody>
+                            </table></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+
+
+';
+$headers = "Content-type: text/html; charset=iso-8859-1\r\n";
+
+if (mail($to, $subject, $html, $headers) and mail($email, $subject, $html, $headers) ) {
+
+	echo "Sua  mensagem foi enviada";
+
+} else {
+
+
+	echo "Ocorreu um erro durante o envio da mensagem.";
+}
+?>
